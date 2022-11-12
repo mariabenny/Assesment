@@ -26,8 +26,18 @@
 //var furn = new Furniture();
 //var furn1 = new Furniture("Oak");
 
+//using Assesment;
+
+//var food = new Food("noodles",200);
+//Console.WriteLine("Name " + food.Name);
+//Console.WriteLine("Discount " + food.Discount);
+//Console.WriteLine("Price after discount " + food.Price);
+
 using Assesment;
 
-var food = new Food("noodles",100);
-Console.WriteLine(food.Discount);
-Console.WriteLine(food.Price);
+var cloth = new Cloth("old",200);
+
+Console.WriteLine(cloth.Stock);   
+Console.WriteLine(cloth.Sale);
+
+
