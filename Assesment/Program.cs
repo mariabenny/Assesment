@@ -15,3 +15,19 @@
 //phn.Readdata();
 //phn.Readdata("mob1", "s6", 60000, "Samsung");
 //phn.Readdata("mob2", 30000, "Samsung");
+
+//using Assesment;
+
+//var an = new Animal();
+//an.set();
+
+//using Assesment;
+
+//var furn = new Furniture();
+//var furn1 = new Furniture("Oak");
+
+using Assesment;
+
+var food = new Food("noodles",100);
+Console.WriteLine(food.Discount);
+Console.WriteLine(food.Price);
